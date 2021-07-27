@@ -138,16 +138,16 @@ img {
     margin-bottom: 68px;
   }
 }
-.brand-img {
+.brand-list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  .brand1 {
-    margin-bottom: 40px;
-  }
-  .brand2 {
-    margin-right: 24px;
-  }
+}
+.brand1 {
+  margin-bottom: 40px;
+}
+.brand2 {
+  margin-right: 24px;
 }
 .works {
   padding-top: 56px;
