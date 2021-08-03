@@ -170,9 +170,9 @@ img {
 .works-group {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .works-card {
-  margin-right: 24px;
   margin-bottom: 48px;
   p {
     text-align: center;

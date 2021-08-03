@@ -167,7 +167,7 @@ img {
   margin-bottom: 68px;
 }
 
-.brand-img {
+.brand-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -178,11 +178,11 @@ img {
       flex-wrap: wrap;
 }
 
-.brand-img .brand1 {
+.brand1 {
   margin-bottom: 40px;
 }
 
-.brand-img .brand2 {
+.brand2 {
   margin-right: 24px;
 }
 
@@ -211,10 +211,11 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .works-card {
-  margin-right: 24px;
   margin-bottom: 48px;
 }
 
